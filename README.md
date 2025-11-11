@@ -68,22 +68,28 @@ Personalized-Movie-Recommender-with-Real-Time-Feedback-Loop/
 ## 🚀 How to Run Locally
 
 # 1️⃣ Clone the repository
+```bash
 git clone https://github.com/<your-username>/Personalized-Movie-Recommender-with-Real-Time-Feedback-Loop.git
 cd Personalized-Movie-Recommender-with-Real-Time-Feedback-Loop
+```
 
 # 2️⃣ Install Dependencies
+```bash
 pip install -r requirements.txt
+```
 
 # 3️⃣ Run the Flask App
+```bash
 python app.py
-
-# Visit the app in your browser:
-# http://localhost:5000
+Visit the app in your browser:
+http://localhost:5000
+```
 
 ## 🐳 Run with Docker
-
+```bash
 docker build -t movie-recommender .
 docker run -p 5000:5000 movie-recommender
+```
 
 ## 🧪 Usage
 
@@ -112,15 +118,16 @@ Feedback Integration:
 4. Users get updated, more personalized suggestions.
 
 ## 💻 Example Dependencies
-
+```bash
 Flask
 pandas
 scikit-learn
 requests
 joblib
+```
 
 ## 🧱 System Architecture
-
+```bash
 User
   ↓
 Flask Web App (app.py)
@@ -141,11 +148,12 @@ Each push to 'main' triggers:
   - Code linting and testing
   - Docker image build
   - Optional deployment workflow
+```
 
 ## 🧾 License
-
+```bash
 This project is licensed under the MIT License — see the LICENSE file for details.
-
+```
 ## 👨‍💻 Author
 
 Kumaraswamy G
