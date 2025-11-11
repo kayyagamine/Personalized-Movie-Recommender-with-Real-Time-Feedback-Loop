@@ -65,20 +65,20 @@ Personalized-Movie-Recommender-with-Real-Time-Feedback-Loop/
     └── index.html             # Main web interface
 ```
 
-## 🚀 How to Run Locally
+# 🚀 How to Run Locally
 
-# 1️⃣ Clone the repository
+## 1️⃣ Clone the repository
 ```bash
 git clone https://github.com/<your-username>/Personalized-Movie-Recommender-with-Real-Time-Feedback-Loop.git
 cd Personalized-Movie-Recommender-with-Real-Time-Feedback-Loop
 ```
 
-# 2️⃣ Install Dependencies
+## 2️⃣ Install Dependencies
 ```bash
 pip install -r requirements.txt
 ```
 
-# 3️⃣ Run the Flask App
+## 3️⃣ Run the Flask App
 ```bash
 python app.py
 Visit the app in your browser:
@@ -139,9 +139,10 @@ OMDb API → Fetch movie posters
 Feedback Module (feedback.py) → feedbackdata.csv
   ↺
 Recommendations updated dynamically
+```
 
 ## ⚡ CI/CD Pipeline
-
+```bash
 The project uses GitHub Actions for continuous integration and deployment.
 Each push to 'main' triggers:
   - Dependency installation
