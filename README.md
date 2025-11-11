@@ -63,6 +63,7 @@ Personalized-Movie-Recommender-with-Real-Time-Feedback-Loop/
 │
 └── templates/                 # HTML templates for Flask
     └── index.html             # Main web interface
+```
 
 ## 🚀 How to Run Locally
 
